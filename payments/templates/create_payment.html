@@ -1,0 +1,8 @@
+<form method="post">
+    {% csrf_token %}
+    <label for="amount">Amount:</label>
+    <input type="text" id="amount" name="amount">
+    <label for="description">Description:</label>
+    <input type="text" id="description" name="description">
+    <button type="submit">Pay with PayPal</button>
+</form>
